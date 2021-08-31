@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "trident-fly",
+  "version": "${version}",
+  "name": "Trident Fly",
+  "description": "Cheat that alows always to fly on your trident",
+  "authors": [
+    "Butukay"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/trident-fly/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.butukay.tridentfly.TridentFly"
+    ],
+    "modmenu": [
+      "com.butukay.tridentfly.config.ModMenu"
+    ]
+  },
+  "mixins": [
+    "trident-fly.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  },
+  "custom": {
+    "modmenu": {
+      "links": { "modmenu.discord": "https://discord.gg/Q6PxYd2WXp" },
+      "badges": [ ],
+      "parent": {
+        "id": "tweaks",
+        "name": "ButukayTweaks",
+        "description": "Butukay's simple tweaks",
+        "icon": "assets/trident-fly/parent-icon.png",
+        "badges": []
+      }
+    }
+  }
+}

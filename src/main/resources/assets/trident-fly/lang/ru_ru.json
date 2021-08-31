@@ -1,0 +1,11 @@
+{
+  "key.category.butukay-tweaks": "Butukay Tweaks",
+  "key.trident-fly.toggle": "Переключить TridentFly",
+  "key.trident-fly.enabled": "TridentFly включен",
+  "key.trident-fly.disabled": "TridentFly выключен",
+  "title.trident-fly.config" : "Настройки TridentFly",
+  "option.trident-fly.enabled" : "Включить",
+  "option.trident-fly.command-name" : "Команда",
+  "option.trident-fly.enable-command" : "Использовать команду",
+  "option.trident-fly.action-bar" : "Отправлять сообщение action bar"
+}
