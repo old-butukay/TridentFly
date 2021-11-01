@@ -10,7 +10,7 @@
   "contact": {},
   "license": "MIT",
   "icon": "assets/trident-fly/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "com.butukay.tridentfly.TridentFly"
@@ -29,7 +29,7 @@
   },
   "custom": {
     "modmenu": {
-      "links": { "modmenu.discord": "https://discord.gg/Q6PxYd2WXp" },
+      "links": { "modmenu.discord": "https://discord.gg/F7hCsM4RaF" },
       "badges": [ ],
       "parent": {
         "id": "tweaks",
