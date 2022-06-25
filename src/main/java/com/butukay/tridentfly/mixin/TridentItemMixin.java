@@ -53,7 +53,7 @@ public abstract class TridentItemMixin extends Item implements Vanishable {
         if (user instanceof PlayerEntity) {
             PlayerEntity playerEntity = (PlayerEntity) user;
             int i = this.getMaxUseTime(stack) - remainingUseTicks;
-            if (i >= 2) {
+            if (i >= TridentFly.getConfig().getUseTicks()) {
                 int j = EnchantmentHelper.getRiptide(stack);
                 if (!world.isClient) {
                     stack.damage(1, playerEntity, (p) -> {
@@ -102,8 +102,6 @@ public abstract class TridentItemMixin extends Item implements Vanishable {
                 }
 
                 world.playSoundFromEntity((PlayerEntity) null, playerEntity, soundEvent, SoundCategory.PLAYERS, 1.0F, 1.0F);
-
-
             }
         }
     }

@@ -7,5 +7,6 @@
   "option.trident-fly.enabled" : "Enabled",
   "option.trident-fly.command-name" : "Command",
   "option.trident-fly.enable-command" : "Enable command usage",
-  "option.trident-fly.action-bar" : "Send message to action bar"
+  "option.trident-fly.action-bar" : "Send message to action bar",
+  "option.trident-fly.use-ticks" : "Ticks before triggering"
 }

@@ -6,6 +6,7 @@ public class TridentFlyConfig {
     private String commandName = ".trident";
     private boolean enabledCommand = false;
     private boolean actionBar = true;
+    private int useTicks = 2;
 
     public boolean isEnabled() {
         return enabled;
@@ -41,5 +42,13 @@ public class TridentFlyConfig {
 
     public void setActionBar(boolean actionBar) {
         this.actionBar = actionBar;
+    }
+
+    public int getUseTicks() {
+        return useTicks;
+    }
+
+    public void setUseTicks(int useTicks) {
+        this.useTicks = useTicks;
     }
 }

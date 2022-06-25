@@ -7,5 +7,6 @@
   "option.trident-fly.enabled" : "Включить",
   "option.trident-fly.command-name" : "Команда",
   "option.trident-fly.enable-command" : "Использовать команду",
-  "option.trident-fly.action-bar" : "Отправлять сообщение action bar"
+  "option.trident-fly.action-bar" : "Отправлять сообщение action bar",
+  "option.trident-fly.use-ticks" : "Тиков до срабатывания"
 }
